@@ -1,0 +1,33 @@
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#121E2D"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/constraintText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="This is Constraint Layout"
+        android:textSize="24sp"
+        android:textColor="#A9A9A9"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="30dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Go Back"
+        android:onClick="onFinishedClick"
+        app:layout_constraintTop_toBottomOf="@+id/constraintText"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="@color/dark_blue"
+        android:textColor="@color/white" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>

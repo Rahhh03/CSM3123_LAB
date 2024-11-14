@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">ControlExperiment</string>
+    <string name="selected_item">Selected item:</string>
+
+    <string-array name="options">
+        <item>Option A</item>
+        <item>Option B</item>
+        <item>Option C</item>
+    </string-array>
+
+</resources>

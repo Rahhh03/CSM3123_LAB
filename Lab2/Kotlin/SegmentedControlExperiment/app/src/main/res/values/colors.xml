@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="tabIndicatorColor">#FF5722</color> <!-- Custom color for tab indicator -->
+    <color name="tabTextColor">#FFFFFF</color> <!-- Custom text color for tabs -->
+    <color name="tabSelectedTextColor">#FFEB3B</color> <!-- Color for selected tab text -->
+    <color name="fragmentBackground">#F5F5F5</color> <!-- Background color for fragments -->
+</resources>

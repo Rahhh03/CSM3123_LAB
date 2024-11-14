@@ -1,0 +1,54 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_settings"
+        android:title="Settings"
+        android:icon="@drawable/setting"
+        app:showAsAction="ifRoom">
+        <menu>
+            <item
+                android:id="@+id/action_general_settings"
+                android:title="General Settings"
+                android:titleTextColor="#FFFFFF"
+                app:showAsAction="never"/>
+            <item
+                android:id="@+id/action_security_settings"
+                android:title="Security Settings"
+                android:titleTextColor="#FFFFFF"
+                app:showAsAction="never"/>
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/action_about"
+        android:title="About"
+        android:icon="@drawable/about"
+        android:titleTextColor="#00FF00"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/action_help"
+        android:title="Help"
+        android:titleTextColor="#FF5733"
+        app:showAsAction="ifRoom">
+        <menu>
+            <item
+                android:id="@+id/action_faq"
+                android:title="FAQ"
+                android:titleTextColor="#FF5733"
+                app:showAsAction="never"/>
+            <item
+                android:id="@+id/action_contact_support"
+                android:title="Contact Support"
+                android:titleTextColor="#FF5733"
+                app:showAsAction="never"/>
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/action_contact_us"
+        android:title="Contact Us"
+        android:titleTextColor="#0000FF"
+        app:showAsAction="never"/>
+</menu>
